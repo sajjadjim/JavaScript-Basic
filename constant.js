@@ -12,6 +12,6 @@ else if(job => 30000 && home == true){
 console.log("You also can married this bride.........");
 }
 else{
-    console.log("You are rejected....");
+    console.log("You are rejected.....");
 }
-
+  

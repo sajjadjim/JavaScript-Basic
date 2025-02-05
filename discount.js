@@ -17,3 +17,4 @@ else if (year >=20)
  else{
     console.log("You have to pay full amount :",pay);
  }
+ 
