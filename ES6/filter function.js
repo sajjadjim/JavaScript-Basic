@@ -4,4 +4,5 @@ let array =newArray.filter(fun)
 function fun(x){
     return x > 5
 }
+
 console.log("The value :" + array)
