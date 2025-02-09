@@ -5,10 +5,7 @@ function say (massage , name)
         name
     }
 }
-
 console.log(say("Hi !" , "My name is JIM"))
-
-
 function say (your_name , your_age)
 {
     return{
@@ -16,5 +13,4 @@ function say (your_name , your_age)
         your_age
     }
 }
-
 console.log(say("You name is - Hasib" ,25))
