@@ -8,7 +8,8 @@
 const obj={
     name:"jim",
     age:25,
-    district:"Manikgonj"
+    district:"Manikgonj",
+    lab:"New_Lab"
 }
 
 for(new_obj in obj){
