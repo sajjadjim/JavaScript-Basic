@@ -27,5 +27,4 @@ async function getFile() {
     });
     document.getElementById("demo").innerHTML = await myPromise;
   }
-  
   getFile();
