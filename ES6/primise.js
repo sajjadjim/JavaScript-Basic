@@ -11,9 +11,11 @@ let promise = new Promise((solve,rejected)=>{
     }
 })
 
+
 promise.then((solve_)=>{
     console.log(solve_)
 })
+
 
 promise.catch((error)=>{
 console.log(error)
