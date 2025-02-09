@@ -6,7 +6,7 @@
 // now arrew function declair 
 
 let fun = (a , b ) => a + b
-console.log(fun(22,11));
+console.log(fun(22, 11));
 
 
 let fun_single = a => a
