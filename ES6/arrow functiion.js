@@ -7,7 +7,5 @@
 
 let fun = (a , b ) => a + b
 console.log(fun(22, 11));
-
-
 let fun_single = a => a
 console.log(fun_single(5364));
