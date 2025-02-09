@@ -10,6 +10,7 @@ const obj={
     age:25,
     district:"Manikgonj"
 }
+
 for(new_obj in obj){
     console.log(new_obj)
 }
