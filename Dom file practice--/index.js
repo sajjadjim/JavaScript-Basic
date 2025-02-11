@@ -1,5 +1,5 @@
 let name_1 = document.getElementsByClassName("name1")[0];
-name_1.innerHTML = "My name is Sajjad Hosain JIM";
+name_1.innerHTML = "My name is Sajjad Hosain  JIM";
 
 
 let id1 = document.getElementById("id1");
