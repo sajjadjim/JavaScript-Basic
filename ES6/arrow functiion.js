@@ -1,5 +1,5 @@
 // let fun  = function (a , b){
-//     return a + b;
+//     return a + b; 
 // }
 // console.log(fun(10,25));
 
