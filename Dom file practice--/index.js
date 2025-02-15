@@ -8,3 +8,5 @@ id1.innerHTML = "H2 tag show on the file....."
 function btn(){
     document.getElementById("show").innerHTML = Date()
 }
+
+console.log("Hello World")
