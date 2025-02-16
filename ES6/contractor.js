@@ -6,4 +6,4 @@ class book{
     }
 } 
 let Book_deatils = new book("Batman" , 300);
-console.log(Book_deatils);
+console.log(Book_deatils); 
