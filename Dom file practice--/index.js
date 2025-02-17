@@ -9,4 +9,4 @@ function btn(){
     document.getElementById("show").innerHTML = Date()
 }
 
-console.log("Dom practice File new.......")
+console.log("Dom practice File new..........")
