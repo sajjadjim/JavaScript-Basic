@@ -6,3 +6,4 @@ console.log("You are rejected.....");
 console.log("You also can married this bride.........");
 console.log("yes you can married this bride...");
 console.log("100 78 undefined");
+console.log("12 13");
