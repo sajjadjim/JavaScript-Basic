@@ -1,17 +1,15 @@
+function identifyNew(allitems) {
+  let unique = [];
 
-function identifyNew(allitems){
-
-    let unique = []
-
-    for(let items of  allitems){
-        if(unique.includes(items) === false){
-           unique.push(items)
-        }
+  for (let items of allitems) {
+    if (unique.includes(items) === false) {
+      unique.push(items);
     }
-    return unique;
+  }
+  return unique;
 }
 
-array=['rahul' , 'abul' , 'kasem' , 'rohim' , 'karim' , 'rahul' , 'abul']
+array = ["rahul", "abul", "kasem", "rohim", "karim", "rahul", "abul"];
 
-let sendFile = identifyNew(array)
-console.log(sendFile)
+let sendFile = identifyNew(array);
+console.log(sendFile);
