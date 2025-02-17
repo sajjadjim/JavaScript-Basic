@@ -2,7 +2,7 @@ const job = 30000;
 const car = true;
 // const isBCS = true;
 const isBCS = false;
-const home = true;
+const home = false;
 
 if((job >35000 && car == true) || isBCS == true)
 {
