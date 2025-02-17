@@ -6,5 +6,6 @@ console.log("minimum number -->" + Math.min(2,67,34,56,89,2,34,36))
 console.log(Math.round(4.9))
 console.log(Math.abs(5 -16))
 
-//Math abs function some code write here
+//Math abs function some code write here abs that round the value positive 
+// and  give us output as positive value
 console.log(Math.abs(-5 -6))
