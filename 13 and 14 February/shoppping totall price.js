@@ -1,8 +1,8 @@
 let products = [
-  { product: "Shampoo", price: 350 },
+  { product: "Shampoo", price: 150 },
   { product: "Shirt", price: 550 },
-  { product: "Pant", price: 750 },
-  { product: "ice-cream", price: 250 },
+  { product: "Pant", price: 850 },
+  { product: "ice-cream", price: 450 },
 ];
 
 function getProducts(products) {
