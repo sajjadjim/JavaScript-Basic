@@ -16,6 +16,5 @@ console.log(newArray(array));
 array.push(99);
 //console.log(array);
 
-
 const array1 = 56;
 console.log(newArray(array1)); 
