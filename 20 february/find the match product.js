@@ -7,12 +7,13 @@ const phones =[
     {name:"Vivo phone" , price :16000, color: "Green"},
     {name:"Realme tab" , price :36000, color: "Yellow"},
     {name:"OnePlus phone" , price :56000, color: "Black"},
+    {name:"Phone vivo" , price :16000, color: "White"},
 ]
 
 function products(phones , search){
  const match = [];
  for(let phone of phones){
-    if(phone.name.includes(search))
+    if(phone.name.toLowerCase().includes(search.toLowerCase()))
     {
         match.push(phone);
     }
