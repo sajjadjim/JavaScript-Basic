@@ -30,5 +30,6 @@ const animal = {
   },
 };
 
-
-console.log(animal.cow.habit());
+// console.log(animal.Goat);
+// console.log(animal.cow.habit());
+console.log("Goat Function here -->" +animal.Goat.habit())
