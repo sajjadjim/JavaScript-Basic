@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom file</title>
+</head>
+<body>
+    <main>
+     <section>
+        <h1>Where i want to visit-->>></h1>
+     <ul>
+        <li class="visited-place">Sundarban</li>
+        <li class="visited-place">Bandarban</li>
+        <li class="visited-place">Cox's Bazer</li>
+        <li class="visited-place">Raggamati</li>
+     </ul>
+     </section>
+     <section>
+        <h2>Bangladesh some Place</h2>
+        <ul>
+            <li id="bd-district">Dhaka</li>
+        </ul>
+     </section>
+    </main>
+    <script>
+  const visitedPlaces = document.getElementsByClassName('visited-place')
+  for(visitedolace of visitedPlaces){
+    console.log(visitedolace.innerText);
+  }
+
+  const idget = document.getElementById('bd-district')
+  console.log(idget.innerHTML)
+    </script>
+</body>
+</html>
