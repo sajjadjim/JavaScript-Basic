@@ -6,12 +6,11 @@
     <title>Event Use Javascript</title>
 </head>
 <body>
-    <h1>New Event ADD Website</h1>
+    <main style="text-align: center;">
+        <h1>New Event ADD Website</h1>
     <button onclick="console.log('5364')">Click Here</button>
     <button onclick="console.log('10')">Another Button </button>
     <button onclick="console.log('New button Add ')">third Button</button>
-    
-
 
     <!-- color change button  -->
      <h1>Color Change Button Here </h1>
@@ -21,6 +20,22 @@
 
      <!-- reset button color  -->
       <button id="reset-color">Reset Color</button>
+
+      <br>
+      <button id="gold-btn">Golden Button</button>
+      <br> <br>
+      <button id="pink-color">Deep Pink color</button>
+      
+      <button id="dark-gray-btn">Dark Gray Button</button>
+    </main>
+
+      <!-- Javascript Work Here done  -->
+      <script>
+        document.getElementById('gold-btn').addEventListener('click',function(){
+            document.body.style.backgroundColor = 'goldenrod'
+        })
+
+      </script>
      <script src="script.js"></script>
 </body>
 </html>

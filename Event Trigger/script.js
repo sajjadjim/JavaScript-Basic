@@ -7,9 +7,6 @@ function makeBlue(){
     document.body.style.backgroundColor = 'lightblue'
 }
 
-
-
-
 // Type 2
 // create function here and also call the html By using ID Tag call 
 // yellow Button function 
@@ -33,3 +30,15 @@ resetColor.style.cursor = 'pointer'
 resetColor.onclick= function resetCOLOR(){
 document.body.style.backgroundColor = 'white'
 }
+
+// Leatest Color Button here Implement 
+const pinkColor = document.getElementById('pink-color');
+pinkColor.addEventListener('click' , function(){
+    document.body.style.backgroundColor = 'deepPink'
+})
+
+
+const grayBTN = document.getElementById('dark-gray-btn')
+grayBTN.addEventListener('click' , function(){
+    document.body.style.backgroundColor = 'darkGray'
+})
