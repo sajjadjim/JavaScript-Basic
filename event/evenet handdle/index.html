@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        section{
+            border: 2px solid rgb(7, 55, 214);
+            margin: 3px;
+        }
+        h1{
+            border: 2px solid rgb(0, 26, 255);
+            margin: 3px;
+        }
+        h3{
+            border: 2px solid green;
+            margin: 3px;
+        }
+        ol{
+            border: 2px solid rgb(238, 112, 8);
+            margin: 3px;
+        }
+        li{
+            border: 2px solid rgb(0, 0, 0);
+            margin: 3px;
+        }
+    </style>
+        <title>Event Haddle</title>
+    </head>
+    <body>
+        <main>
+            <body>
+                <h1>Event Name Bellow Here</h1>
+                <section id="section">
+
+                    <h3>Event list</h3>
+                    <ol id="order-list">
+                        <li id="list-item1">Lorem ipsum dolor sit amet.</li>
+                        <li id="list-item2">Et doloribus unde alias atque?</li>
+                        <li id="list-item3">Ex officiis quasi possimus
+                            libero?</li>
+                        <li id="list-item4">Voluptas maiores deleniti molestiae
+                            pariatur!</li>
+                    </ol>
+                </section>
+            </body>
+        </main>
+        <script>
+document.getElementById('list-item2').addEventListener('click' , function(){
+    console.log("11.Click list item 2")
+    //event.stopPropagation();  Its stop the propagation 
+    event.stopImmediatePropagation(); //It stop all the propagation its start from the immediate
+})
+document.getElementById('list-item2').addEventListener('click' , function(){
+    console.log("12.Click list item 2")
+})
+document.getElementById('list-item2').addEventListener('click' , function(){
+    console.log("13.Click list item 2")
+})
+document.getElementById('order-list').addEventListener('click' , function(){
+    console.log("2.Click list Inside")
+})
+document.getElementById('section').addEventListener('click' , function(){
+    console.log("3.Click click section")
+})
+        </script>
+    </body>
+</html>
