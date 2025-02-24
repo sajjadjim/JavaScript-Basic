@@ -2,7 +2,7 @@ const colorNAME = document.getElementById("color-name");
 const main_tag = document.getElementById("main-container");
 // taken button access
 colorNAME.addEventListener("keyup", function () {
-  // Color Name Taken
+  // Color Name Taken ------
   const color_name = event.target.value;
 
   // taken main container access ----
