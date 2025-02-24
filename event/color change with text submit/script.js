@@ -5,7 +5,7 @@ colorNAME.addEventListener("keyup", function () {
   // Color Name Taken
   const color_name = event.target.value;
 
-  // taken main container access
+  // taken main container access ----
   const action_btn = document.getElementById("activate-btn");
   if (color_name === "red") {
     action_btn.removeAttribute("disabled");
